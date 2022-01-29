@@ -1721,7 +1721,9 @@
     <Content Include="FontAwesome\webfonts\fa-brands-400.svg" />
     <Content Include="FontAwesome\webfonts\fa-regular-400.svg" />
     <Content Include="FontAwesome\webfonts\fa-solid-900.svg" />
+    <Content Include="HomePage.aspx" />
     <Content Include="Images\Flower1.jpg" />
+    <Content Include="Images\Flower10.jpg" />
     <Content Include="Images\Flower2.jpg" />
     <Content Include="Images\Flower3.jpg" />
     <Content Include="Images\Flower4.jpg" />
@@ -1730,10 +1732,18 @@
     <Content Include="Images\Flower7.jpg" />
     <Content Include="Images\Flower8.jpg" />
     <Content Include="Images\Flower9.jpg" />
+    <Content Include="Images\home-bg.jpg" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>

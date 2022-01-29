@@ -27,7 +27,7 @@
 
                </a>
 
-               <button class=" navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarsupportedcontact"
+               <button class=" navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontact"
                    aria-controls="navbarsupportedcontact" aria-expanded="false" aria-label="Toggle navigation" >
                    <span class="navbar-toggler-icon"></span>               
                    
@@ -36,7 +36,7 @@
                    <ul class="navbar nav me-auto">                       
 
                         <li class="nav-item active">
-                            <a class="nav-link" href="homepage.aspx">Home</a>
+                            <a class="nav-link" href="Homepage.aspx">Home</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#">About Us</a>
@@ -71,11 +71,35 @@
             </asp:ContentPlaceHolder>
         </div>
        <footer>
-           <p>
-                <a class="footerlinks" href="#" target="_blank">
-                    Library Management System
-          </a>
-           </p>
+            <div id="footer1" class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton6" runat="server">Admin Login</asp:LinkButton>
+                            &nbsp;
+                            <asp:LinkButton class="footerlinks" ID="LinkButton11" runat="server">Author Management</asp:LinkButton>
+                            &nbsp;
+                            <asp:LinkButton class="footerlinks" ID="LinkButton12" runat="server">Publisher Management</asp:LinkButton>
+                            &nbsp;
+                            <asp:LinkButton class="footerlinks" ID="LinkButton8" runat="server">Book Inventory</asp:LinkButton>
+                            &nbsp;
+                            <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server">Book Issuing</asp:LinkButton>
+                            &nbsp;
+                             <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server">Member Management</asp:LinkButton>
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+          <div id="footer2" class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p style="color:whitesmoke">&copy All right Reversed. 
+                            <a class="footerlinks" href="#" target="_blank">Library Management</a></p>
+                    </div>
+                </div>
+            </div>
          
        </footer>
     </form>
