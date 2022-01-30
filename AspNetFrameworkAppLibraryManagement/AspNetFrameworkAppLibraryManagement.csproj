@@ -67,6 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminAuthormanagement.aspx" />
+    <Content Include="AdminBookInventory.aspx" />
+    <Content Include="AdminBookIssuing.aspx" />
+    <Content Include="AdminLogIN.aspx" />
+    <Content Include="AdminMemberManagement.aspx" />
+    <Content Include="AdminPublisherManagement.aspx" />
     <Content Include="BootStrap\CSS\bootstrap.min.css" />
     <Content Include="BootStrap\jquery.slim.min.js" />
     <Content Include="BootStrap\JS\bootstrap.min.js" />
@@ -1740,6 +1746,48 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminAuthormanagement.aspx.cs">
+      <DependentUpon>AdminAuthormanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAuthormanagement.aspx.designer.cs">
+      <DependentUpon>AdminAuthormanagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBookInventory.aspx.cs">
+      <DependentUpon>AdminBookInventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminBookInventory.aspx.designer.cs">
+      <DependentUpon>AdminBookInventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBookIssuing.aspx.cs">
+      <DependentUpon>AdminBookIssuing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminBookIssuing.aspx.designer.cs">
+      <DependentUpon>AdminBookIssuing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogIN.aspx.cs">
+      <DependentUpon>AdminLogIN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminLogIN.aspx.designer.cs">
+      <DependentUpon>AdminLogIN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMemberManagement.aspx.cs">
+      <DependentUpon>AdminMemberManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMemberManagement.aspx.designer.cs">
+      <DependentUpon>AdminMemberManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPublisherManagement.aspx.cs">
+      <DependentUpon>AdminPublisherManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPublisherManagement.aspx.designer.cs">
+      <DependentUpon>AdminPublisherManagement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
