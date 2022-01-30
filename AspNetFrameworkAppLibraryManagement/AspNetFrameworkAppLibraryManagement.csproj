@@ -1734,6 +1734,7 @@
     <Content Include="Images\Flower9.jpg" />
     <Content Include="Images\home-bg.jpg" />
     <Content Include="userlogin.aspx" />
+    <Content Include="UserProfilePage.aspx" />
     <Content Include="UserSignup.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -1760,6 +1761,13 @@
     </Compile>
     <Compile Include="userlogin.aspx.designer.cs">
       <DependentUpon>userlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfilePage.aspx.cs">
+      <DependentUpon>UserProfilePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserProfilePage.aspx.designer.cs">
+      <DependentUpon>UserProfilePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserSignup.aspx.cs">
       <DependentUpon>UserSignup.aspx</DependentUpon>

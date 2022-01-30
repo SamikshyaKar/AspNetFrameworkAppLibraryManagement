@@ -1,11 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="UserSignup.aspx.cs" Inherits="AspNetFrameworkAppLibraryManagement.UserSignup" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="UserProfilePage.aspx.cs" Inherits="AspNetFrameworkAppLibraryManagement.UserProfilePage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    <div class="container">
+   <div class="container-fluid">
       <div class="row">
-         <div class="col-md-9 mx-auto">
+         <div class="col-md-5">
             <div class="card">
                <div class="card-body">
                   <div class="row">
@@ -20,7 +19,7 @@
                         <center>
                            <h4>Your Profile</h4>
                            <span>Account Status - </span>
-                           <asp:Label class="badge rounded-pill bg-info" ID="Label1" runat="server" Text="Your status"></asp:Label>
+                           <asp:Label class="badge badge-pill badge-info" ID="Label1" runat="server" Text="Your status"></asp:Label>
                         </center>
                      </div>
                   </div>
@@ -39,7 +38,7 @@
                      <div class="col-md-6">
                         <label>Date of Birth</label>
                         <div class="form-group">
-                           <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server"  TextMode="Date"></asp:TextBox>
+                           <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" TextMode="Date"></asp:TextBox>
                         </div>
                      </div>
                   </div>
@@ -113,59 +112,58 @@
                      <div class="col">
                         <label>Full Address</label>
                         <div class="form-group">
-                           <asp:TextBox CssClass="form-control" ID="TextBox5" runat="server" 
-                               placeholder="Full Address" TextMode="MultiLine" Rows="2"></asp:TextBox>
+                           <asp:TextBox CssClass="form-control" ID="TextBox5" runat="server" placeholder="Full Address" TextMode="MultiLine" Rows="2"></asp:TextBox>
                         </div>
                      </div>
                   </div>
                   <div class="row">
-                     <div class="col d-flex py-2">
+                     <div class="col">
                         <center>
                            <span class="badge rounded-pill bg-info">Login Credentials</span>
                         </center>
                      </div>
                   </div>
                   <div class="row">
-                     <div class="col-md-6">
+                     <div class="col-md-4">
                         <label>User ID</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox8" runat="server" placeholder="User ID" ReadOnly="false"></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox8" runat="server" placeholder="User ID" ReadOnly="True"></asp:TextBox>
                         </div>
                      </div>
-                     <div class="col-md-6">
-                        <label> Password</label>
+                     <div class="col-md-4">
+                        <label>Old Password</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder=" Password" TextMode="Password" ReadOnly="false"></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder=" Old Password" TextMode="Password" ReadOnly="True"></asp:TextBox>
                         </div>
                      </div>
-                    <%-- <div class="col-md-4">
+                     <div class="col-md-4">
                         <label>New Password</label>
                         <div class="form-group">
                            <asp:TextBox class="form-control" ID="TextBox10" runat="server" placeholder="New Password" TextMode="Password"></asp:TextBox>
                         </div>
-                     </div>--%>
+                     </div>
                   </div>
                    <hr />
                   <div class="row">
                      <div class="col-8 mx-auto">
                         <center>
                            <div class="form-group">
-                              <asp:Button class="btn btn-success btn-block btn-lg w-100 d-grid" ID="Button1" runat="server" Text="SignUP" />
+                              <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Update" />
                            </div>
                         </center>
                      </div>
                   </div>
                </div>
             </div>
-            <a href="HomePage.aspx"><< Back to Home</a><br><br>
+            <a href="homepage.aspx"><< Back to Home</a><br><br>
          </div>
-         <%--<div class="col-md-7">
+         <div class="col-md-7">
             <div class="card">
                <div class="card-body">
                   <div class="row">
                      <div class="col">
                         <center>
-                           <img width="100" src="Images/Flower8.jpg"/>
+                           <img width="100" src="Images/Flower7.jpg"/>
                         </center>
                      </div>
                   </div>
@@ -189,7 +187,7 @@
                   </div>
                </div>
             </div>
-         </div>--%>
+         </div>
       </div>
    </div>
 </asp:Content>

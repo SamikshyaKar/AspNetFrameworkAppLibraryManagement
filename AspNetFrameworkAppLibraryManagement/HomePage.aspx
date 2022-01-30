@@ -47,7 +47,7 @@
       </div>
    </section>
    <section>
-      <img src="Images/Flower3.jpg" class="img-fluid"/>
+      <img src="Images/Flower10.jpg"  class="img-fluid"/>
    </section>
    <section>
       <div class="container">
